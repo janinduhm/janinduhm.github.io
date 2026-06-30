@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://janinduhm.github.io/sitemap.xml
