@@ -1,81 +1,48 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Pulse Design for Pre-6G Mobile Radio Systems
+description: Constrained optimization of FDSS pulse parameters for pre-6G uplink — M.Sc. thesis at Rohde & Schwarz
 importance: 1
-category: work
-related_publications: true
+category: research
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+**Institution:** University of Kassel — in collaboration with Rohde & Schwarz GmbH & Co. KG, Munich
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+**Period:** Oct 2025 – Apr 2026
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+> Implementation code is confidential under the Rohde & Schwarz collaboration agreement and is not published.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+---
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Overview
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+This thesis benchmarks next-generation uplink waveform candidates against the 5G NR baseline, with a focus on optimizing Frequency Domain Spectral Shaping (FDSS) with symmetric spectral extension.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## Waveforms Compared
 
-{% raw %}
+| Waveform | Role |
+|---|---|
+| CP-OFDM | 5G NR downlink baseline |
+| DFT-s-OFDM | 5G NR uplink baseline |
+| FDSS-enhanced DFT-s-OFDM (+ spectral extension) | Primary contribution |
+| OTFS | Alternative candidate |
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+## Optimization Framework
 
-{% endraw %}
+- **Design vector:** truncation factor, roll-off factor, spectral extension ratio
+- **Objective:** minimize BER under constraints on PAPR, ACLR, and throughput
+- **Channels evaluated:** AWGN, TDL-D (indoor, 3 km/h), TDL-C (high-mobility, 120 km/h)
+
+## Key Finding
+
+The optimization reveals a **two-regime behaviour**:
+- At low SNR: BER-optimal configurations prioritize spectral extension
+- At high SNR: PAPR-optimal configurations emerge with significantly lower PAPR
+
+Spectral extension consistently recovers the BER penalty of bare FDSS across all regimes.
+
+## Tools
+
+MATLAB (5G NR Toolbox, Communications Toolbox, Signal Processing Toolbox, Parallel Computing Toolbox), LaTeX
+
+<a href="https://github.com/janinduhm/Pulse-Design-for-Pre-6G-Mobile-Radio-Systems" target="_blank">GitHub Repository</a>
