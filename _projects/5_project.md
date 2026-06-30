@@ -3,7 +3,7 @@ layout: page
 title: Root-Finding IC
 description: Digital IC for root-finding using IEEE-754 16-bit floating-point with FPU and Taylor series
 importance: 5
-category: engineering
+category: work
 ---
 
 **Period:** Nov 2019 – Jan 2020

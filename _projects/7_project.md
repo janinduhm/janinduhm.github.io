@@ -3,7 +3,7 @@ layout: page
 title: My-Note
 description: Lightweight Android note-taking app with full CRUD functionality and local SQLite storage
 importance: 7
-category: engineering
+category: work
 ---
 
 **Period:** Mar 2020 – Jun 2021 | Mobile Application Development Course

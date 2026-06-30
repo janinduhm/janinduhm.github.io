@@ -3,7 +3,7 @@ layout: page
 title: Gesture Control Smart Room Kit
 description: Gesture-controlled smart home system converting conventional appliances to WiFi-enabled devices
 importance: 6
-category: engineering
+category: work
 ---
 
 **Period:** Mar 2020 – Jun 2021
