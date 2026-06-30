@@ -3,7 +3,7 @@ layout: page
 title: SAE-CNN Indoor Positioning
 description: Deep learning-based WiFi indoor positioning using stacked autoencoders and 1D-CNN
 importance: 2
-category: work
+category: research
 ---
 
 **Period:** Apr 2025 – Aug 2025

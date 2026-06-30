@@ -3,7 +3,7 @@ layout: page
 title: Autonomous Search Rescue System
 description: Systems design study for a fully autonomous marine rescue platform using UAV and ASV coordination
 importance: 4
-category: work
+category: research
 ---
 
 **Period:** Oct 2020 – Feb 2021 | Academic Systems Design Study

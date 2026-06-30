@@ -3,7 +3,7 @@ layout: page
 title: Pulse Design for Pre-6G Mobile Radio Systems
 description: Constrained optimization of FDSS pulse parameters for pre-6G uplink — M.Sc. thesis at Rohde & Schwarz
 importance: 1
-category: work
+category: research
 ---
 
 **Institution:** University of Kassel — in collaboration with Rohde & Schwarz GmbH & Co. KG, Munich
