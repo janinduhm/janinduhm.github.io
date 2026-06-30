@@ -4,6 +4,7 @@ title: Versatile Indoor Positioning System
 description: WiFi RSSI and accelerometer-based indoor localization using neural networks (B.Sc. thesis)
 importance: 3
 category: research
+img: assets/img/projects/versatile_ips.png
 ---
 
 **Period:** Oct 2020 – Jun 2021 | B.Sc. Thesis
