@@ -1,14 +1,13 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - janinduhm
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - janinduhm/Pulse-Design-for-Pre-6G-Mobile-Radio-Systems
+  - janinduhm/SAE-CNN-Indoor-Positioning
+  - janinduhm/Versatile-Indoor-Positioning-System
+  - janinduhm/Autonomous-Search-Rescue-System
+  - janinduhm/Root-Finding-IC
+  - janinduhm/Gesture-Control-Smart-Room-Kit
+  - janinduhm/My-Note
