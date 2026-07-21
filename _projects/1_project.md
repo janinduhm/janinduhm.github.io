@@ -20,12 +20,12 @@ This thesis benchmarks next-generation uplink waveform candidates against the 5G
 
 ## Waveforms Compared
 
-| Waveform | Role |
-|---|---|
-| CP-OFDM | 5G NR downlink baseline |
-| DFT-s-OFDM | 5G NR uplink baseline |
-| FDSS-enhanced DFT-s-OFDM (+ spectral extension) | Primary contribution |
-| OTFS | Alternative candidate |
+| Waveform                                        | Role                    |
+| ----------------------------------------------- | ----------------------- |
+| CP-OFDM                                         | 5G NR downlink baseline |
+| DFT-s-OFDM                                      | 5G NR uplink baseline   |
+| FDSS-enhanced DFT-s-OFDM (+ spectral extension) | Primary contribution    |
+| OTFS                                            | Alternative candidate   |
 
 ## Optimization Framework
 
@@ -36,6 +36,7 @@ This thesis benchmarks next-generation uplink waveform candidates against the 5G
 ## Key Finding
 
 The optimization reveals a **two-regime behaviour**:
+
 - At low SNR: BER-optimal configurations prioritize spectral extension
 - At high SNR: PAPR-optimal configurations emerge with significantly lower PAPR
 

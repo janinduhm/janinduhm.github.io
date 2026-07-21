@@ -18,12 +18,14 @@ A conceptual architecture for a fully autonomous marine rescue platform addressi
 Two autonomous platforms working in coordination:
 
 **UAV Component**
+
 - Detects drowning victims using deep learning
 - Deploys a flotation device
 - Transmits GPS waypoints to the surface vehicle
 - Hardware: Pixhawk 2.4.8, u-blox 7020 GPS, XBee Pro
 
 **Autonomous Surface Vehicle (ASV)**
+
 - Receives GPS waypoints and navigates to victim
 - Executes rescue operation
 - Hardware: NVIDIA Jetson Nano (deep learning inference), Raspberry Pi 3 Model B+ (navigation and control), XBee Pro
