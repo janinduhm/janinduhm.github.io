@@ -121,7 +121,7 @@ cv:
         start_date: 2019-11
         end_date: 2020-01
         highlights:
-          - Digital IC for root-finding using IEEE-754 16-bit floating-point with FPU and Taylor series approximation.
+          - Digital IC for root-finding using IEEE-754 16-bit floating-point with FPU and Chebyshev polynomial approximation.
           - "Tools: Verilog HDL"
 
     Skills:

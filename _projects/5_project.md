@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Root-Finding IC
-description: Digital IC for root-finding using IEEE-754 16-bit floating-point with FPU and Taylor series
+description: Digital IC for root-finding using IEEE-754 16-bit floating-point with FPU and Chebyshev polynomial approximation
 importance: 5
 category: engineering
 img: assets/img/projects/root_finding_ic.png
