@@ -11,7 +11,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Kassel / Munich, Germany</p>
+    <p>Ingolstadt (Munich region), Germany</p>
     <p>janinduhm@gmail.com</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"

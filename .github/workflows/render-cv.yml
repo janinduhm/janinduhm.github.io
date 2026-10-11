@@ -1,14 +1,8 @@
 name: Render a CV
 on:
-  push:
-    branches:
-      - main
-      - master
-    paths:
-      - "_data/cv.yml"
-      - "assets/rendercv/design.yaml"
-      - "assets/rendercv/locale.yaml"
-      - "assets/rendercv/settings.yaml"
+  # Push trigger disabled 2026-10-12: this site's CV page uses assets/pdf/cv.pdf (built from the LaTeX CV),
+  # and RenderCV has failed on every cv.yml change since June 2026, sending a failure email each time.
+  # Run it by hand from the Actions tab if the RenderCV output is ever wanted.
   workflow_call:
   workflow_dispatch:
 permissions:
