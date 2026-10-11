@@ -84,10 +84,10 @@ cv:
     Projects:
       - name: Pulse Design for Pre-6G Mobile Radio Systems
         start_date: 2025-10
-        end_date: present
+        end_date: 2026-04
         highlights:
           - Implemented link-level simulations of CP-OFDM, DFT-s-OFDM, FDSS-enhanced DFT-s-OFDM, and OTFS across AWGN and 3GPP fading channels.
-          - Validated optimal FDSS design over 5×10⁶ simulation slots; FDSS achieved PAPR 5.81 dB below CP-OFDM baseline.
+          - Validated the optimal design at each of six SNR points over 5×10⁶ simulation slots; all met PAPR ≤ 6 dB, ACLR ≥ 30 dBc and throughput ≥ 10 Mbps, with PAPR down to 2.87 dB.
           - "Tools: MATLAB (5G NR Toolbox, Communications Toolbox, Signal Processing Toolbox, Parallel Computing Toolbox)"
 
       - name: SAE-CNN Based Indoor Positioning System
