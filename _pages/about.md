@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  M.Sc. Student, <a href="https://www.uni-kassel.de" target="_blank">University of Kassel</a> &nbsp;|&nbsp;
+  M.Sc. Electrical Communication Engineering, <a href="https://www.uni-kassel.de" target="_blank">University of Kassel</a> &nbsp;|&nbsp;
   Thesis at <a href="https://www.rohde-schwarz.com" target="_blank">Rohde & Schwarz</a>, Munich
 
 profile:
@@ -24,9 +24,9 @@ latest_posts:
   enabled: false
 ---
 
-I am a Master's student in Electrical Communication Engineering at the University of Kassel, currently completing my thesis at **Rohde & Schwarz GmbH & Co. KG** in Munich on pre-6G waveform optimization.
+I completed my M.Sc. in Electrical Communication Engineering at the University of Kassel in August 2026, with my thesis carried out at **Rohde & Schwarz GmbH & Co. KG** in Munich on pre-6G waveform optimization.
 
-My thesis focuses on constrained optimization of Frequency Domain Spectral Shaping (FDSS) pulse parameters for the 5G NR uplink, benchmarking FDSS with symmetric spectral extension and OTFS modulation against the CP-OFDM and DFT-s-OFDM baselines under realistic channel conditions (AWGN, TDL-D, TDL-C).
+My thesis addressed the constrained optimization of Frequency Domain Spectral Shaping (FDSS) pulse parameters with symmetric spectral extension for the 5G NR uplink, and benchmarked FDSS and OTFS modulation against the CP-OFDM and DFT-s-OFDM baselines under realistic channel conditions (AWGN, TDL-D, TDL-C).
 
 My broader interests lie in physical layer signal processing, waveform design, and wireless communications systems — areas I have been exploring through both academic research and hands-on project work spanning deep learning, embedded systems, and digital IC design.
 

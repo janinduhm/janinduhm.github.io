@@ -9,8 +9,8 @@ last_name: Bandara
 contact_note: >
   Feel free to reach out via email or LinkedIn.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  M.Sc. student in Electrical Communication Engineering at the University of Kassel,
-  currently completing my thesis at Rohde & Schwarz on pre-6G waveform optimization.
+  Electrical communication engineer (M.Sc., University of Kassel, 2026),
+  Master's thesis at Rohde & Schwarz on pre-6G waveform optimization.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
